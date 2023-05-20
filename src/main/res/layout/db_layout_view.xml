@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background">
+
+    <TextView
+        android:id="@+id/finalSpeedDB"
+        android:layout_width="59dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="284dp"
+        android:fontFamily="@font/anton"
+        android:text="@string/initial_speed"
+        android:textColor="#FAF7F7"
+        android:textSize="48sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/finalTimeDB"
+        android:layout_width="179dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="160dp"
+        android:fontFamily="@font/anton"
+        android:text="@string/intial_time"
+        android:textColor="#FAF7F7"
+        android:textSize="48sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="52dp"
+        android:fontFamily="@font/work_sans_bold"
+        android:text="@string/your_run_on"
+        android:textColor="#FAF7F7"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/dateDB"
+        android:layout_width="228dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="52dp"
+        android:fontFamily="@font/work_sans_bold"
+        android:text="@string/initial_date"
+        android:textColor="#FAF7F7"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="140dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="428dp"
+        android:fontFamily="@font/work_sans"
+        android:text="@string/comment"
+        android:textColor="#FAF7F7"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/finalDistanceDB"
+        android:layout_width="116dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="288dp"
+        android:fontFamily="@font/anton"
+        android:text="@string/initial_distance"
+        android:textColor="#FAF7F7"
+        android:textSize="48sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ratingDB"
+        android:layout_width="164dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="112dp"
+        android:fontFamily="@font/work_sans"
+        android:text="@string/initial_rating"
+        android:textColor="#FAF7F7"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="112dp"
+        android:fontFamily="@font/work_sans"
+        android:text="@string/rating_word"
+        android:textColor="#FAF7F7"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="212dp"
+        android:layout_marginTop="372dp"
+        android:fontFamily="@font/work_sans"
+        android:text="@string/average_speed"
+        android:textColor="#FAF7F7"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="372dp"
+        android:fontFamily="@font/work_sans"
+        android:text="@string/miles"
+        android:textColor="#FAF7F7"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="244dp"
+        android:fontFamily="@font/work_sans"
+        android:text="@string/time"
+        android:textColor="#FAF7F7"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/notesDB"
+        android:layout_width="360dp"
+        android:layout_height="187dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="468dp"
+        android:fontFamily="@font/work_sans"
+        android:text="@string/initial_comments"
+        android:textColor="#FAF7F7"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

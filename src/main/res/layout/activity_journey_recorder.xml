@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#448AFF"
+    tools:context=".Tracker"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="0dp">
+
+    <TextView
+        android:id="@+id/timeTextView"
+        android:layout_width="345dp"
+        android:layout_height="129dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/anton"
+        android:text="@string/intial_time"
+        android:textColor="@color/purple_700"
+        android:textSize="90sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="416dp"
+        android:fontFamily="@font/work_sans"
+        android:text="@string/speed"
+        android:textColor="#782A95"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="288dp"
+        android:fontFamily="@font/work_sans"
+        android:text="@string/miles"
+        android:textColor="#782A95"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/speedTextView"
+        android:layout_width="103dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="332dp"
+        android:fontFamily="@font/anton"
+        android:text="@string/initial_speed"
+        android:textColor="@color/purple_700"
+        android:textSize="48sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="161dp"
+        android:layout_height="129dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="464dp"
+        android:backgroundTint="@color/teal_200"
+        android:fontFamily="@font/rubik_mono_one"
+        android:onClick="onClickStartRecording"
+        android:text="@string/start"
+        android:textSize="24sp"
+        app:cornerRadius="300dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/endButton"
+        android:layout_width="161dp"
+        android:layout_height="129dp"
+        android:layout_marginStart="216dp"
+        android:layout_marginTop="464dp"
+        android:backgroundTint="#F3603C"
+        android:fontFamily="@font/rubik_mono_one"
+        android:onClick="onClickStopRecording"
+        android:text="@string/end"
+        android:textSize="24sp"
+        app:cornerRadius="300dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="132dp"
+        android:fontFamily="@font/work_sans"
+        android:text="@string/time"
+        android:textColor="#782A95"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/distanceTextView"
+        android:layout_width="182dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="160dp"
+        android:fontFamily="@font/anton"
+        android:text="@string/initial_distance"
+        android:textColor="@color/purple_700"
+        android:textSize="80sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/anton</item>
+        <item>@font/contrail_one</item>
+        <item>@font/meera_inimai</item>
+        <item>@font/rubik_mono_one</item>
+        <item>@font/work_sans</item>
+        <item>@font/work_sans_bold</item>
+    </array>
+</resources>

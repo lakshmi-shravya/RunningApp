@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">RUNIT</string>
+    <string name="intial_time">00:00:00</string>
+    <string name="time">TIME</string>
+    <string name="initial_distance">0.00</string>
+    <string name="miles">MILES</string>
+    <string name="initial_speed">0</string>
+    <string name="speed">SPEED /MPH</string>
+    <string name="average_speed">AVERAGE SPEED /MPH</string>
+    <string name="well_done">Well Done!</string>
+    <string name="rating">RATE YOUR RUN OUT OF 10</string>
+    <string name="notes">HOW DID IT GO?</string>
+    <string name="start">START</string>
+    <string name="start_tracking">START TRACKING</string>
+    <string name="longest_run">LONGEST RUN</string>
+    <string name="all_runs">0</string>
+    <string name="numRuns">RUNS SO FAR</string>
+    <string name="end">END</string>
+    <string name="previous_runs">PREVIOUS RUNS</string>
+    <string name="save">SAVE</string>
+    <string name="highest_distance">HIGHEST DISTANCE</string>
+    <string name="your_run_on">Your run on </string>
+    <string name="rating_word">Rating : </string>
+    <string name="comment">Comments</string>
+    <string name="initial_date">00-00-0000</string>
+    <string name="initial_rating">No rating given</string>
+    <string name="initial_comments">No Comments</string>
+    <string name="cancel">CANCEL</string>
+</resources>
